@@ -4,7 +4,7 @@ kind: Service
 metadata: 
   name: carts
   labels:
-    keptn: "{{ .Values.keptn.service }}-{{ .Values.keptn.project }}-{{ .Values.keptn.stage }}"-canary
+    keptn: "{{ .Values.keptn.service }}-{{ .Values.keptn.project }}-{{ .Values.keptn.stage }}-{{ .Values.keptn.deployment }}"
 spec: 
   type: ClusterIP
   ports: 
