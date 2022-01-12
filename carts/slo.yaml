@@ -19,5 +19,5 @@ objectives:
           - "<=800"
     weight: 1
 total_score:
-  pass: "40%"
-  warning: "30%"
+  pass: "90%"
+  warning: "75%"
